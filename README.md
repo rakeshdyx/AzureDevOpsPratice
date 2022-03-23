@@ -11,10 +11,10 @@ Create Build Artifacts
 
 **Build and Agents**
 Two type of pipeline
-	- Build Pipeline
-		- From source code checkout to Artifact publish as release  
-	- Release Pipeline
-		- From the release to Artifact deployment.
+- Build Pipeline
+	* From source code checkout to Artifact publish as release  
+- Release Pipeline
+	* From the release to Artifact deployment.
 		
 		
 **Note:** 
@@ -27,8 +27,15 @@ Serialization - translates data structure or object state into format that can b
 **Create a Build pipeline**
 Azure pipeline allows us to use `Config as code`  approach. 
 Build Pipeline can be created in two ways -
-	- Click for new build pipeline 
-	- Import a pipeline - If you already have a pipeline in Jenkins or Bamboo, you can use the json file to import same pipeline.
-TBD: Does Bamboo pipeline job allow to download a json file? Need to test it
+- Click for new build pipeline 
+	- You can choose any of below repo to crrate your pipeline.
+
+	- Reference image
+	 ![image](https://user-images.githubusercontent.com/55756905/159600719-9438c915-fe71-48fd-8152-b7c7eb3feaa9.png)
+
+	
+- Import a pipeline - If you already have a pipeline in Jenkins or Bamboo, you can use the json file to import same pipeline.
+- 
+> TBD: Does Bamboo pipeline job allow to download a json file? Need to test it
 
 
